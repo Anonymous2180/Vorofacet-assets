@@ -372,7 +372,7 @@
       "boundsPolicy": "Union of original world-coordinate bounds for all included methods; one identical fit across comparison panels.",
       "defaultBaseline": "dcx",
       "id": "nm50",
-      "label": "Non-manifold object",
+      "label": "Non-manifold object (1)",
       "methods": {
         "capudf": {
           "bytes": 4792906,
@@ -543,6 +543,375 @@
     {
       "bounds": [
         [
+          -0.5783557891845703,
+          -0.9854477643966675,
+          -1.0001308917999268
+        ],
+        [
+          0.574392557144165,
+          0.9854477643966675,
+          1.0023682117462158
+        ]
+      ],
+      "boundsPolicy": "Union of original world-coordinate bounds for all included methods; one identical fit across comparison panels.",
+      "defaultBaseline": "dcx",
+      "id": "nm11",
+      "label": "Non-manifold object (2)",
+      "methods": {
+        "capudf": {
+          "bytes": 3080456,
+          "encoding": "gzip",
+          "faces": 409795,
+          "family": "grid",
+          "file": "blobs/249e1f6056c54ea0ca561ee39f10c65721ad9e1ae183c2d5dfc354c9897fac5a.ply.gz",
+          "heavy": false,
+          "label": "CAP-UDF",
+          "plySha256": "d9dcd7ee12230182c19199709f5a20c2fe9c90772e3077c2fcc258580649aba1",
+          "sha256": "249e1f6056c54ea0ca561ee39f10c65721ad9e1ae183c2d5dfc354c9897fac5a",
+          "uncompressedBytes": 8041728,
+          "vertices": 226181
+        },
+        "dcudf": {
+          "bytes": 10427001,
+          "encoding": "gzip",
+          "faces": 1044598,
+          "family": "offset",
+          "file": null,
+          "heavy": true,
+          "label": "DCUDF",
+          "parts": [
+            "blobs/ed39613161db5255a50d5ef9bbc91dfea824277178729213cae4e34182df7442.ply.gz",
+            "blobs/8928999043a082604f4d414d81ea29a25b42ee2b7d2d04cf43eec22db8217aa4.ply.gz"
+          ],
+          "plySha256": "31159c00467d48f549fcca970e3304352ad5048b4cd14a8f900e74fb0b223d6d",
+          "sha256": "83655ea00186842ed762ed8193a04282a8994bd7de971114ef310781c639e90f",
+          "uncompressedBytes": 19845376,
+          "vertices": 522115
+        },
+        "dcudf2": {
+          "bytes": 11565141,
+          "encoding": "gzip",
+          "faces": 1149026,
+          "family": "offset",
+          "file": null,
+          "heavy": true,
+          "label": "DCUDF2",
+          "parts": [
+            "blobs/16876c5a94384ba6c9e9aa289bc95b05d453b3b4b5fb90c8a6c4dd58981184f3.ply.gz",
+            "blobs/bcf3924773430b3100d356ef0bd3739703a3ea7e5febfc34aa54d7676655d074.ply.gz"
+          ],
+          "plySha256": "fadd059f9d86cd5d83fb0f5caacfe8366067f1363a5f9609891560fd8c8b71c7",
+          "sha256": "7df7ad33d5c610cb10875d4a5c1da0f9a7e27f9de27e796b44d3763d1245898c",
+          "uncompressedBytes": 21829508,
+          "vertices": 574329
+        },
+        "dcx": {
+          "bytes": 3013365,
+          "encoding": "gzip",
+          "faces": 275103,
+          "family": "dual",
+          "file": "blobs/b36fdcc93289c0a26591cefa6965f85f111967b17f5948ede2f02a0bd118cfd9.ply.gz",
+          "heavy": false,
+          "label": "DCx",
+          "plySha256": "dc01359376d4650ef579fef780b45b7aba4d28040f2adde317e5e0cf9daf4723",
+          "sha256": "b36fdcc93289c0a26591cefa6965f85f111967b17f5948ede2f02a0bd118cfd9",
+          "uncompressedBytes": 5215568,
+          "vertices": 136584
+        },
+        "dualmesh": {
+          "bytes": 4216611,
+          "encoding": "gzip",
+          "faces": 526932,
+          "family": "dual",
+          "file": "blobs/7280857d01b73faf38d31404ce9f97e6edd4c8899e5a6e818cd5b151caa19049.ply.gz",
+          "heavy": false,
+          "label": "DualMesh-UDF",
+          "plySha256": "31c82a491e6898aa9e0ead095b1b04233cde7b98076ea0da3352408911907b33",
+          "sha256": "7280857d01b73faf38d31404ce9f97e6edd4c8899e5a6e818cd5b151caa19049",
+          "uncompressedBytes": 9159605,
+          "vertices": 192439
+        },
+        "geoudf": {
+          "bytes": 1475233,
+          "encoding": "gzip",
+          "faces": 210239,
+          "family": "grid",
+          "file": "blobs/73c7a07182e29e61210909ba995958bb9f1cced4b3dd785cfaf50417ff7cad5f.ply.gz",
+          "heavy": false,
+          "label": "GeoUDF",
+          "plySha256": "d28cbbcb9b4e2258919fe500e43f33d831b3a3386558272a952332469c22a213",
+          "sha256": "73c7a07182e29e61210909ba995958bb9f1cced4b3dd785cfaf50417ff7cad5f",
+          "uncompressedBytes": 4015828,
+          "vertices": 106875
+        },
+        "gt": {
+          "bytes": 233601,
+          "encoding": "gzip",
+          "faces": 21364,
+          "family": "reference",
+          "file": "blobs/836a28dce2173af27eee1595ed814ed3fa2d39223d0660bbc5d0e5aac216d099.ply.gz",
+          "heavy": false,
+          "label": "Ground truth",
+          "plySha256": "75d6cc1246c4527fb1bafcc565e9bd6680ed9d4b8651376926eb2b56fc2cf4c8",
+          "sha256": "836a28dce2173af27eee1595ed814ed3fa2d39223d0660bbc5d0e5aac216d099",
+          "uncompressedBytes": 406015,
+          "vertices": 10672
+        },
+        "hrudf": {
+          "bytes": 2508363,
+          "encoding": "gzip",
+          "faces": 321621,
+          "family": "grid",
+          "file": "blobs/64082b9ec4f6f9564a72d75a62b5f280b4f3f5d20cb4d5eefb2a07889e5d01a7.ply.gz",
+          "heavy": false,
+          "label": "HR-UDF",
+          "plySha256": "2e3d169379fb989b07d3492934f8d988fd20db200644b273143ed5435c8a3881",
+          "sha256": "64082b9ec4f6f9564a72d75a62b5f280b4f3f5d20cb4d5eefb2a07889e5d01a7",
+          "uncompressedBytes": 6470930,
+          "vertices": 190803
+        },
+        "meshudf": {
+          "bytes": 2304092,
+          "encoding": "gzip",
+          "faces": 282279,
+          "family": "grid",
+          "file": "blobs/e2758870d744b5bff213cddc88adbc104c7b1156551b148f3d7c5a123bc9dab5.ply.gz",
+          "heavy": false,
+          "label": "MeshUDF",
+          "plySha256": "754304460e9db1bc5b55e2720c81a4011f8a96633b9fbcd313218a9ab0cdbf61",
+          "sha256": "e2758870d744b5bff213cddc88adbc104c7b1156551b148f3d7c5a123bc9dab5",
+          "uncompressedBytes": 5393084,
+          "vertices": 143603
+        },
+        "mind": {
+          "bytes": 2206389,
+          "encoding": "gzip",
+          "faces": 223611,
+          "family": "grid",
+          "file": "blobs/7feb1e5db1025e40142f38d31f0e8d738ea6ad95564e6a1fe9d47e7b7e8b4b65.ply.gz",
+          "heavy": false,
+          "label": "MIND",
+          "plySha256": "306b57746565eee08fd35414c6767b666f3b1a7f53a865db3f89c761c215e158",
+          "sha256": "7feb1e5db1025e40142f38d31f0e8d738ea6ad95564e6a1fe9d47e7b7e8b4b65",
+          "uncompressedBytes": 4244312,
+          "vertices": 111429
+        },
+        "ours": {
+          "bytes": 3518727,
+          "encoding": "gzip",
+          "faces": 310515,
+          "family": "ours",
+          "file": "blobs/9cc167451683c6141c6300f4bc9ae591eb474757fafdc96fbb6db88b6c09f182.ply.gz",
+          "heavy": false,
+          "label": "VoroFacet",
+          "plySha256": "00794d7ab9e9a6dae79b5971cc943770894772cc89f04e66a8b1cbd472d62b81",
+          "sha256": "9cc167451683c6141c6300f4bc9ae591eb474757fafdc96fbb6db88b6c09f182",
+          "uncompressedBytes": 5895608,
+          "vertices": 154891
+        }
+      },
+      "note": "Non-manifold ABC object 011.",
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "view": [
+        0.7,
+        0.4,
+        0.6
+      ]
+    },
+    {
+      "bounds": [
+        [
+          -0.8366729617118835,
+          -1.0,
+          -0.9558169841766357
+        ],
+        [
+          0.8366729617118835,
+          1.0001922845840454,
+          0.9558169841766357
+        ]
+      ],
+      "boundsPolicy": "Union of original world-coordinate bounds for all included methods; one identical fit across comparison panels.",
+      "defaultBaseline": "dcx",
+      "id": "nm18",
+      "label": "Non-manifold object (3)",
+      "methods": {
+        "capudf": {
+          "bytes": 4009028,
+          "encoding": "gzip",
+          "faces": 543698,
+          "family": "grid",
+          "file": "blobs/cb2b92ce7eea9be961fffd66750afb0f4032ca165b5c173349d46d449f59236b.ply.gz",
+          "heavy": false,
+          "label": "CAP-UDF",
+          "plySha256": "7aba1c373b6698676274f61f4eb1737414ad502f40bda046d212d6376e193ae0",
+          "sha256": "cb2b92ce7eea9be961fffd66750afb0f4032ca165b5c173349d46d449f59236b",
+          "uncompressedBytes": 10515979,
+          "vertices": 287307
+        },
+        "dcudf": {
+          "bytes": 13436241,
+          "encoding": "gzip",
+          "faces": 1348644,
+          "family": "offset",
+          "file": null,
+          "heavy": true,
+          "label": "DCUDF",
+          "parts": [
+            "blobs/590494877a3e6ec37f84b2f251a75a57ea5d5842548842b8895498714724bbd1.ply.gz",
+            "blobs/acef82d82cc323db32311a70ac2ba46561b865662b044b4ba5860185b00c8daf.ply.gz"
+          ],
+          "plySha256": "93d11075d75001c85bdc43ed873997aef4d490756a2f6680ec0fec7a6f452c2b",
+          "sha256": "bd276343a15bc96fe4e399bd7fbc3c2791c03edb9eb088f59d182a5e6e3cd1e1",
+          "uncompressedBytes": 25624446,
+          "vertices": 674321
+        },
+        "dcudf2": {
+          "bytes": 14471190,
+          "encoding": "gzip",
+          "faces": 1442514,
+          "family": "offset",
+          "file": null,
+          "heavy": true,
+          "label": "DCUDF2",
+          "parts": [
+            "blobs/78be70818fa6dd75b1f4b34c95bf30d9085f744d463f138064b6c8e0307fc180.ply.gz",
+            "blobs/8a424d2b3d0c4b82a1c00033eda17443a33b64c2e47b9fd01f781c9fe31b7f1f.ply.gz",
+            "blobs/c5a2930d968c9dee3ccb13fcc6532385ef527333c4e568e52c73d72169733b14.ply.gz"
+          ],
+          "plySha256": "ea409a0c5f6ad94fbe73f010b6c2a503a383ff09ea7d1fb78ef0a43393208ad6",
+          "sha256": "aaeda4f8cdd4cafcfbad32014722325ab280b77a25fb2672160d063fd79a81b1",
+          "uncompressedBytes": 27407976,
+          "vertices": 721256
+        },
+        "dcx": {
+          "bytes": 5958446,
+          "encoding": "gzip",
+          "faces": 547317,
+          "family": "dual",
+          "file": "blobs/833571595b1ae5d579e9e546968ea4c70e4f2fe101b16f619f1aa434a721c416.ply.gz",
+          "heavy": false,
+          "label": "DCx",
+          "plySha256": "3059aba8f68cc6bffb9487a2dbea9664a334c5339a68607b87e22de0b4688eaa",
+          "sha256": "833571595b1ae5d579e9e546968ea4c70e4f2fe101b16f619f1aa434a721c416",
+          "uncompressedBytes": 10390694,
+          "vertices": 272946
+        },
+        "dualmesh": {
+          "bytes": 7374350,
+          "encoding": "gzip",
+          "faces": 907036,
+          "family": "dual",
+          "file": null,
+          "heavy": false,
+          "label": "DualMesh-UDF",
+          "parts": [
+            "blobs/59e9c1496a2208261891f1501bdc492ded3e64812ccb5d3319ea4ce0a7fe49e6.ply.gz",
+            "blobs/760eeca630f1e4a38d8ea60f4e9375966c93ddbdeac7898a9b5299d3b946056a.ply.gz"
+          ],
+          "plySha256": "06a368d36e5c14413cdb799a71ff730360b42cafa4193a0d4bad288e996fc98f",
+          "sha256": "e2a26681dbdc3942faef004a944904d8f2249579d2c9fd95340e76b29e00f358",
+          "uncompressedBytes": 15983901,
+          "vertices": 349351
+        },
+        "geoudf": {
+          "bytes": 2805887,
+          "encoding": "gzip",
+          "faces": 402580,
+          "family": "grid",
+          "file": "blobs/124d850c7702182e176b5ca372a5fb902f145c2edcf2366a0c2686fb67f33647.ply.gz",
+          "heavy": false,
+          "label": "GeoUDF",
+          "plySha256": "b00e1e43c3327e7849aaa61703b16b2b2537326726c13a45c53c2b1d24ddda0b",
+          "sha256": "124d850c7702182e176b5ca372a5fb902f145c2edcf2366a0c2686fb67f33647",
+          "uncompressedBytes": 7651905,
+          "vertices": 201512
+        },
+        "gt": {
+          "bytes": 538377,
+          "encoding": "gzip",
+          "faces": 48084,
+          "family": "reference",
+          "file": "blobs/9e29da4d1268d2e08c0897e72cd055a707c1620ae8671c5ae5913249bddfd18e.ply.gz",
+          "heavy": false,
+          "label": "Ground truth",
+          "plySha256": "2eba6070109cbd3e40a4d0679c8520c1641a39a51184846c89eb66b358c16b2f",
+          "sha256": "9e29da4d1268d2e08c0897e72cd055a707c1620ae8671c5ae5913249bddfd18e",
+          "uncompressedBytes": 913791,
+          "vertices": 24040
+        },
+        "hrudf": {
+          "bytes": 4622030,
+          "encoding": "gzip",
+          "faces": 607956,
+          "family": "grid",
+          "file": "blobs/248bb7c307122829d132eecf1f600449ca875e5550d67f2fc23ee59330f631cd.ply.gz",
+          "heavy": false,
+          "label": "HR-UDF",
+          "plySha256": "fc0277da74f75d276f16ce2f02840176e39db6aeb9d8eca25182d22f29248b82",
+          "sha256": "248bb7c307122829d132eecf1f600449ca875e5550d67f2fc23ee59330f631cd",
+          "uncompressedBytes": 11965529,
+          "vertices": 338490
+        },
+        "meshudf": {
+          "bytes": 4636503,
+          "encoding": "gzip",
+          "faces": 560430,
+          "family": "grid",
+          "file": "blobs/735896eeaccfaf0f25d80556916c137db3558267c5b131170ce520043e2d7997.ply.gz",
+          "heavy": false,
+          "label": "MeshUDF",
+          "plySha256": "e0b96bc79fa7517671b47eb56beca2eb0707a83505bfd4a9cf14d69d1ef0f7e4",
+          "sha256": "735896eeaccfaf0f25d80556916c137db3558267c5b131170ce520043e2d7997",
+          "uncompressedBytes": 10664795,
+          "vertices": 281582
+        },
+        "mind": {
+          "bytes": 4081325,
+          "encoding": "gzip",
+          "faces": 411984,
+          "family": "grid",
+          "file": "blobs/8bab6000745a3d1b2b20401247acd543b180b7b5aef6596712728796ee0e7637.ply.gz",
+          "heavy": false,
+          "label": "MIND",
+          "plySha256": "aca638a2bcdd11304982840d64184e61b6f49d55669157b2e5f93740f9ec7657",
+          "sha256": "8bab6000745a3d1b2b20401247acd543b180b7b5aef6596712728796ee0e7637",
+          "uncompressedBytes": 7820525,
+          "vertices": 205376
+        },
+        "ours": {
+          "bytes": 4328127,
+          "encoding": "gzip",
+          "faces": 422042,
+          "family": "ours",
+          "file": "blobs/354e0993f41a1717f678f5067898717599229833481eedb3339635616e837610.ply.gz",
+          "heavy": false,
+          "label": "VoroFacet",
+          "plySha256": "e3d8c4fb5abdd2b17c66f8ae6563ddfbf005a50403cdebaa40f97f53dc3accc9",
+          "sha256": "354e0993f41a1717f678f5067898717599229833481eedb3339635616e837610",
+          "uncompressedBytes": 8012971,
+          "vertices": 210517
+        }
+      },
+      "note": "Non-manifold ABC object 018.",
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "view": [
+        0.7,
+        0.4,
+        0.6
+      ]
+    },
+    {
+      "bounds": [
+        [
           -0.4375818073749542,
           -0.1698099970817566,
           -0.18137924373149872
@@ -556,7 +925,7 @@
       "boundsPolicy": "Union of original world-coordinate bounds for all included methods; one identical fit across comparison panels.",
       "defaultBaseline": "dcx",
       "id": "car04",
-      "label": "Car with interior surfaces",
+      "label": "ShapeNet-Car (1)",
       "methods": {
         "capudf": {
           "bytes": 8522736,
@@ -720,6 +1089,385 @@
         }
       },
       "note": "ShapeNet-Car model 04, with interior faces retained.",
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "view": [
+        0.6679522468,
+        0.3504082616,
+        -0.6565469109
+      ]
+    },
+    {
+      "bounds": [
+        [
+          -0.42944321036338806,
+          -0.19259309768676758,
+          -0.1822296679019928
+        ],
+        [
+          0.42729753255844116,
+          0.19477520883083344,
+          0.1820574849843979
+        ]
+      ],
+      "boundsPolicy": "Union of original world-coordinate bounds for all included methods; one identical fit across comparison panels.",
+      "defaultBaseline": "dcx",
+      "id": "car07",
+      "label": "ShapeNet-Car (2)",
+      "methods": {
+        "capudf": {
+          "bytes": 8698906,
+          "encoding": "gzip",
+          "faces": 1200160,
+          "family": "grid",
+          "file": null,
+          "heavy": true,
+          "label": "CAP-UDF",
+          "parts": [
+            "blobs/a1b076d064bb6cc30121ddc0375011e2ad821a32aebd903ccb2bbe3b1897053e.ply.gz",
+            "blobs/224c46401793b60fe266b55aecfc194feba14a6359058ff510a5e1b0e3dcfb82.ply.gz"
+          ],
+          "plySha256": "08f32f5d8270420e61fcbbdebae39f1482681e33b8062fba2cbe2fadddb9ce01",
+          "sha256": "e7be523923a90d9321d03a9ac24a5e0ac74932452a8aaf19293dbbb6929604d4",
+          "uncompressedBytes": 24128710,
+          "vertices": 710534
+        },
+        "dcudf": {
+          "bytes": 26295017,
+          "encoding": "gzip",
+          "faces": 2752094,
+          "family": "offset",
+          "file": null,
+          "heavy": true,
+          "label": "DCUDF",
+          "parts": [
+            "blobs/88c13a4cd736e6cdc230b407cb05d0e2788b8f1a2bd7b19574d06b0fb5e4876b.ply.gz",
+            "blobs/583630111b7d83740a06536d946164fff71985c52e4e736e0f37aac9c11708b3.ply.gz",
+            "blobs/db7722792d78bdb2af38a6952a722204ed640e93947e963b2197908cf1bf132b.ply.gz",
+            "blobs/5952078a878f699c64be5f261776e4d8b12068de6344ec1c8ec0341e787c0401.ply.gz"
+          ],
+          "plySha256": "25dd7852977b83bbf0266a2ed0774a004128be2264fd13871b09d4a4fec694d7",
+          "sha256": "a4ac293d74a7ed48e1d8402b7555f58e81c7f108c64c4e31178cea97bfb6cc4a",
+          "uncompressedBytes": 52292433,
+          "vertices": 1376249
+        },
+        "dcudf2": {
+          "bytes": 29236965,
+          "encoding": "gzip",
+          "faces": 3030470,
+          "family": "offset",
+          "file": null,
+          "heavy": true,
+          "label": "DCUDF2",
+          "parts": [
+            "blobs/919eb1dbad6e7a1c4ea04a3d7fb2d15931814987b095c1a23c0c9353806f3adb.ply.gz",
+            "blobs/21731cfddf928b85c9eb9b351b4548144c8dd46da1a63408930d9152e5069d8d.ply.gz",
+            "blobs/4120978356f0f412cc6c02b2f99929c32df6b05c3b53c10d9c9f6c0be8122902.ply.gz",
+            "blobs/feea11405418bb719b24d9057b2337d3e921c033c7d5da627ed9811cc87bbd40.ply.gz",
+            "blobs/97431cf2855f80ef93cb456518a0ee9e18b05e4dfbf880deb14832bcfae00843.ply.gz"
+          ],
+          "plySha256": "172ca23a24d2f3706fad8a98b792dbb8b6329d939ebcc8518b419e5f79114ae6",
+          "sha256": "e00ba458899dce254362f9aec103e0eb12312d44960b46a5f5ef7ca9b1e058ef",
+          "uncompressedBytes": 57583197,
+          "vertices": 1515572
+        },
+        "dcx": {
+          "bytes": 4242090,
+          "encoding": "gzip",
+          "faces": 399892,
+          "family": "dual",
+          "file": "blobs/6e6c8422785ff0ebbeff56bafcb058ce05b5f86369463d4e44b98d47efe543f6.ply.gz",
+          "heavy": false,
+          "label": "DCx",
+          "plySha256": "3c68a432d604599fd04169c3fa198cc12b22f8afefa2f2786edd28e2eed38319",
+          "sha256": "6e6c8422785ff0ebbeff56bafcb058ce05b5f86369463d4e44b98d47efe543f6",
+          "uncompressedBytes": 7512777,
+          "vertices": 192830
+        },
+        "dualmesh": {
+          "bytes": 5538429,
+          "encoding": "gzip",
+          "faces": 714990,
+          "family": "dual",
+          "file": "blobs/58ad63614b1969af210b81fab4ae73bb41408c4786b14ed9705fd79c2a890567.ply.gz",
+          "heavy": false,
+          "label": "DualMesh-UDF",
+          "plySha256": "94da5fd454905be0859f84873bf2de1d339c57fd257a0ee65c82369a3819187a",
+          "sha256": "58ad63614b1969af210b81fab4ae73bb41408c4786b14ed9705fd79c2a890567",
+          "uncompressedBytes": 12704447,
+          "vertices": 284113
+        },
+        "geoudf": {
+          "bytes": 2289010,
+          "encoding": "gzip",
+          "faces": 332619,
+          "family": "grid",
+          "file": "blobs/e0fd8b6e712b1c5217b54a743cd9d5fba28bcf21ba7361310f902705669cbc90.ply.gz",
+          "heavy": false,
+          "label": "GeoUDF",
+          "plySha256": "ac8557356d047209bf4819ad9e1af590d7620be9932742829501171fdab1a4fc",
+          "sha256": "e0fd8b6e712b1c5217b54a743cd9d5fba28bcf21ba7361310f902705669cbc90",
+          "uncompressedBytes": 6464420,
+          "vertices": 178346
+        },
+        "gt": {
+          "bytes": 519817,
+          "encoding": "gzip",
+          "faces": 74744,
+          "family": "reference",
+          "file": "blobs/6ab249474d270801f324392a8aa78c3c64bebfb6ca240fe297caa3e69da403a4.ply.gz",
+          "heavy": false,
+          "label": "Ground truth",
+          "plySha256": "4a36e0f8b603cbfa053e7031199da939c810f4a671fe1c5869fa8873deb79997",
+          "sha256": "6ab249474d270801f324392a8aa78c3c64bebfb6ca240fe297caa3e69da403a4",
+          "uncompressedBytes": 1422872,
+          "vertices": 37580
+        },
+        "hrudf": {
+          "bytes": 3357943,
+          "encoding": "gzip",
+          "faces": 445620,
+          "family": "grid",
+          "file": "blobs/3ac37deaff3a0e8131228ec5d52583e2879c1a4ad66b6dda7514db39881df879.ply.gz",
+          "heavy": false,
+          "label": "HR-UDF",
+          "plySha256": "4ae09fa2d2452010b8208db4e0504f92d3963e55d985f51790ca3535b33ef816",
+          "sha256": "3ac37deaff3a0e8131228ec5d52583e2879c1a4ad66b6dda7514db39881df879",
+          "uncompressedBytes": 8853509,
+          "vertices": 255019
+        },
+        "meshudf": {
+          "bytes": 1822298,
+          "encoding": "gzip",
+          "faces": 235247,
+          "family": "grid",
+          "file": "blobs/0486faa14b8a315bae5aa4b52f5b4245dc65848e1aea4b05241bcfce8500db22.ply.gz",
+          "heavy": false,
+          "label": "MeshUDF",
+          "plySha256": "94107281cfee06079e01fc43abc2f4e68cfe858bc1a1a4a6974c867e38d17616",
+          "sha256": "0486faa14b8a315bae5aa4b52f5b4245dc65848e1aea4b05241bcfce8500db22",
+          "uncompressedBytes": 4711252,
+          "vertices": 137735
+        },
+        "mind": {
+          "bytes": 3323290,
+          "encoding": "gzip",
+          "faces": 341842,
+          "family": "grid",
+          "file": "blobs/2af09be42bbac6503937d28c4b0a234e3c8749e82d5f00519dd2c07b61a1701c.ply.gz",
+          "heavy": false,
+          "label": "MIND",
+          "plySha256": "81c3655abaf9710fea336aad9e7197995b67e37b51f7a59ec5765fd0fbe0466b",
+          "sha256": "2af09be42bbac6503937d28c4b0a234e3c8749e82d5f00519dd2c07b61a1701c",
+          "uncompressedBytes": 6469239,
+          "vertices": 168756
+        },
+        "ours": {
+          "bytes": 7631072,
+          "encoding": "gzip",
+          "faces": 693227,
+          "family": "ours",
+          "file": null,
+          "heavy": false,
+          "label": "VoroFacet",
+          "parts": [
+            "blobs/8ee6644bce82cfbdfb8b7ab5c65af303fe23d3579fe7a76d1afd23c99209608c.ply.gz",
+            "blobs/7658c66115ef0bc5f95177f2e3ceeb82aae6fda805bbed30a3009c99d3376cb0.ply.gz"
+          ],
+          "plySha256": "a9629f35d8ca57321ac10a57f747baccdcef500a2403f31a3e5d3999292b3136",
+          "sha256": "ca68001d8e757c4d8490c8f8f7eeda5ebcc94aa6774a2f3494556cf07b9648b0",
+          "uncompressedBytes": 13081120,
+          "vertices": 339079
+        }
+      },
+      "note": "ShapeNet-Car model 07, with interior faces retained.",
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "view": [
+        0.6679522468,
+        0.3504082616,
+        -0.6565469109
+      ]
+    },
+    {
+      "bounds": [
+        [
+          -0.44597408175468445,
+          -0.13308347761631012,
+          -0.1893165409564972
+        ],
+        [
+          0.44945287704467773,
+          0.13206802308559418,
+          0.18830467760562897
+        ]
+      ],
+      "boundsPolicy": "Union of original world-coordinate bounds for all included methods; one identical fit across comparison panels.",
+      "defaultBaseline": "dcx",
+      "id": "car13",
+      "label": "ShapeNet-Car (3)",
+      "methods": {
+        "capudf": {
+          "bytes": 5500563,
+          "encoding": "gzip",
+          "faces": 733059,
+          "family": "grid",
+          "file": "blobs/7bbc5aed9bb047e8c86afad23d696bfe12e07c7494b54bf719a0fc543929a5a0.ply.gz",
+          "heavy": false,
+          "label": "CAP-UDF",
+          "plySha256": "73bd8fbffed797ec67ef8e366c7538cf39f2e0baa015c76eeb99b5e562fad02e",
+          "sha256": "7bbc5aed9bb047e8c86afad23d696bfe12e07c7494b54bf719a0fc543929a5a0",
+          "uncompressedBytes": 14655608,
+          "vertices": 427135
+        },
+        "dcudf": {
+          "bytes": 17695795,
+          "encoding": "gzip",
+          "faces": 1816632,
+          "family": "offset",
+          "file": null,
+          "heavy": true,
+          "label": "DCUDF",
+          "parts": [
+            "blobs/d6c2ef40daea2d371136889c3580716abbf9e896ebb8f02c6f027de2a6309eea.ply.gz",
+            "blobs/7db999c026eb9b3ff06303c8c4c631917f20cb88916a22546aa272e5dc2cea36.ply.gz",
+            "blobs/6267aef5c37abd835732520aab0281d11785838da8c918cdb5599fbd57bb1aed.ply.gz"
+          ],
+          "plySha256": "39dd9e0aae7f28ed23481c93a53b5ef9ac2ee1c3c8287f28b3244ae99d7c2077",
+          "sha256": "19c13f300905cc274b63d84d44edb220289c0192456c87bd2493f9be83012bba",
+          "uncompressedBytes": 34516518,
+          "vertices": 908340
+        },
+        "dcudf2": {
+          "bytes": 19109162,
+          "encoding": "gzip",
+          "faces": 1950996,
+          "family": "offset",
+          "file": null,
+          "heavy": true,
+          "label": "DCUDF2",
+          "parts": [
+            "blobs/79d7081fddfeed9c4f53bce31f19428694b29cdb2dbf89b3db4b667eb15de041.ply.gz",
+            "blobs/ce281e3e1da72539361a50ca86fca7e063169e17608511ce0cdf1afba347ac29.ply.gz",
+            "blobs/287d578327d9ef298eb418b221067cb79d5c41445fd18145b60b3ffa39b75ebe.ply.gz"
+          ],
+          "plySha256": "2b10761af8652415a89184c3888f80469258db2d94bbae7574dba5a075f76a9f",
+          "sha256": "ad9dd4db9485445e06ed0d792c49557ebb866b6ae811e633d74bd75ea34a9c59",
+          "uncompressedBytes": 37069434,
+          "vertices": 975522
+        },
+        "dcx": {
+          "bytes": 2376189,
+          "encoding": "gzip",
+          "faces": 224516,
+          "family": "dual",
+          "file": "blobs/8723ca3d6112bb7182730463755b001a672794d7f99a8ea12c5dbb8e6a3a1319.ply.gz",
+          "heavy": false,
+          "label": "DCx",
+          "plySha256": "8681a3910c5670ba52e4cb903e5f4d61e0cc84015911c46f7eba8dcd51e4dc6f",
+          "sha256": "8723ca3d6112bb7182730463755b001a672794d7f99a8ea12c5dbb8e6a3a1319",
+          "uncompressedBytes": 4230277,
+          "vertices": 109279
+        },
+        "dualmesh": {
+          "bytes": 3361577,
+          "encoding": "gzip",
+          "faces": 434308,
+          "family": "dual",
+          "file": "blobs/eba5435634ac7e33c76775da31cc6d6c105575ef2ba702d3b44c6c1fac77f3ed.ply.gz",
+          "heavy": false,
+          "label": "DualMesh-UDF",
+          "plySha256": "17d342afc3b789592467b05b449606e599344a099caedf145d5ce82473d152eb",
+          "sha256": "eba5435634ac7e33c76775da31cc6d6c105575ef2ba702d3b44c6c1fac77f3ed",
+          "uncompressedBytes": 7626909,
+          "vertices": 165057
+        },
+        "geoudf": {
+          "bytes": 1314220,
+          "encoding": "gzip",
+          "faces": 184503,
+          "family": "grid",
+          "file": "blobs/048be846741847b7bab0d293c33efe21438ed875ad05e0b6d7d5c8ada746c945.ply.gz",
+          "heavy": false,
+          "label": "GeoUDF",
+          "plySha256": "c985a1a2a2488cf18b189ceb913e120732333743533fd45516644c6f8d419e35",
+          "sha256": "048be846741847b7bab0d293c33efe21438ed875ad05e0b6d7d5c8ada746c945",
+          "uncompressedBytes": 3574027,
+          "vertices": 97939
+        },
+        "gt": {
+          "bytes": 734264,
+          "encoding": "gzip",
+          "faces": 90535,
+          "family": "reference",
+          "file": "blobs/ed18ec022ee1ea5308cc35311be5f0c8e93d71d9c4414aa0bf88b5b867cc0213.ply.gz",
+          "heavy": false,
+          "label": "Ground truth",
+          "plySha256": "91d18309d13b2054b3b28231730e9e9407eeb7d7e29aca2e96a0660c0f842e6e",
+          "sha256": "ed18ec022ee1ea5308cc35311be5f0c8e93d71d9c4414aa0bf88b5b867cc0213",
+          "uncompressedBytes": 1734979,
+          "vertices": 46482
+        },
+        "hrudf": {
+          "bytes": 2000611,
+          "encoding": "gzip",
+          "faces": 255275,
+          "family": "grid",
+          "file": "blobs/3250ffb46eb188f3d712c73cf20823e5e839cd822ad958919afd575d5c601f14.ply.gz",
+          "heavy": false,
+          "label": "HR-UDF",
+          "plySha256": "7026da4f820fb52542d429e281c05afb7c087d0f703afc655580fd36ba30a8e3",
+          "sha256": "3250ffb46eb188f3d712c73cf20823e5e839cd822ad958919afd575d5c601f14",
+          "uncompressedBytes": 5082772,
+          "vertices": 146998
+        },
+        "meshudf": {
+          "bytes": 1522552,
+          "encoding": "gzip",
+          "faces": 185597,
+          "family": "grid",
+          "file": "blobs/3662edea76339471cc6b2f23e8a0c2f8222b5ae3b08a4df24f213fe927468d0f.ply.gz",
+          "heavy": false,
+          "label": "MeshUDF",
+          "plySha256": "a82059213fcd40eaf656549c4e38a310ef9bf4ab0eefeff2edb61da92e7f265c",
+          "sha256": "3662edea76339471cc6b2f23e8a0c2f8222b5ae3b08a4df24f213fe927468d0f",
+          "uncompressedBytes": 3620830,
+          "vertices": 100654
+        },
+        "mind": {
+          "bytes": 1745823,
+          "encoding": "gzip",
+          "faces": 175322,
+          "family": "grid",
+          "file": "blobs/2cc82bccf305854017638a03295b8b4cf855a1e23b05dca09f5b4581b614793d.ply.gz",
+          "heavy": false,
+          "label": "MIND",
+          "plySha256": "84a36059b4366e0cae0beb29037d2e86c6bf1bd521f5404c4c37cabfb0eb68ed",
+          "sha256": "2cc82bccf305854017638a03295b8b4cf855a1e23b05dca09f5b4581b614793d",
+          "uncompressedBytes": 3334278,
+          "vertices": 87906
+        },
+        "ours": {
+          "bytes": 4143976,
+          "encoding": "gzip",
+          "faces": 377147,
+          "family": "ours",
+          "file": "blobs/14cf9cc53302e4681ba02293181b54b05365129007de93b7a866c4e603ca67ac.ply.gz",
+          "heavy": false,
+          "label": "VoroFacet",
+          "plySha256": "067c4ece8c52cad5223a5e0ea4254784e4fdf538b43a8d2690701150f7dfc115",
+          "sha256": "14cf9cc53302e4681ba02293181b54b05365129007de93b7a866c4e603ca67ac",
+          "uncompressedBytes": 7106536,
+          "vertices": 183617
+        }
+      },
+      "note": "ShapeNet-Car model 13, with interior faces retained.",
       "up": [
         0,
         1,
